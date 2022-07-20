@@ -1,0 +1,403 @@
+* {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+}
+body{
+  background-color: #fff;
+}
+
+/* ----NAVIGATION BAR---- */
+
+h1.heading{
+
+    padding-top: 100px;
+    text-align: center;
+    font-size:60px;
+    letter-spacing: -.01em;
+    line-height: 1.2;
+    font-weight: 800;
+    font-family:gd-sage,"Times","Times New Roman",serif;
+}
+h2{
+ font-family:gdsherpa,Helvetica,Arial,sans-serif;
+}
+h1{
+  
+  font-size:60px;
+  letter-spacing: -.01em;
+  line-height: 1.2;
+  font-weight: 800;
+  font-family: gd-sage,"Times","Times New Roman",serif;
+}
+h2.h2{
+  text-align: center;
+}
+.navbar {
+  display: flex;
+  width: 100%;
+  height: 92px;
+  background-color: #fff;
+}
+.nav-logo {
+  margin-left: 30px;
+  padding-top: 19px;
+  width: 300px;
+}
+.logo {
+  width: 190px;
+  height: auto;
+}
+li{
+  color: black;
+}
+li.leftli{
+  margin-right: 30px;  
+  font-size: 15px;
+  color: rgb(126, 126, 126);
+}
+ul.nav-leftmenu {
+  padding-left: 10px;
+  text-align: center;
+  display: flex;
+}
+.nav-leftmenu{
+  color: #fff;
+  
+}
+li {
+  list-style: none;
+  font-size: 15px; 
+}
+a {
+  text-decoration: none;
+}
+container.navbar {
+  padding-top: 10px;
+  padding-top: 10px;
+  margin-top: 26px;
+  height: 40px;
+}
+.nav-leftmenu {
+  width: 600px;
+}
+
+.nav-rightmenu{
+  padding-top: 1px;
+  color: black;
+  margin-left: 80px;
+  display: flex;
+  font-size: 16px;
+  width: 500px;
+}
+.arrowdown{
+  padding-top: 2px;
+  padding-right: 30px;
+  padding-left: 5px;
+  width: 15px;
+  height: auto;
+}
+.carticon{
+  width:22px;
+  height: 22px;
+}
+
+li.liright{
+  margin-left: 30px;
+}
+
+/*---- BANNER TOP---- */
+
+.bannertop{
+  height: 415px;
+  width: 100%;
+  background-color: #fde9db;
+}
+.searchbar{
+  padding-top: 20px;
+  padding-bottom: 15px;
+  margin-left: 150px;
+}
+.textarea{
+  margin-right: 0;
+  width:1120px;
+  height: 60px;
+  /* border:3px solid rgb(59, 147, 255); */
+  border: none;
+}
+::placeholder{
+  font-weight: 200;
+  padding-left: 20px;
+  color: rgb(49, 49, 49);
+  font-size: 20px;
+  font-family:gdsherpa,Helvetica,Arial,sans-serif;
+}
+h2.btntxt{
+  color: #fff;
+  
+}
+.srchbtn{
+  margin-left: -4px;
+  font-size: 10px;
+  background-color: black;
+  border: none;
+  width: 117px;
+  height: 60px;
+}
+
+h2.bannertopfoottxt{
+  text-align: center;
+  font-size: 12px;
+  font-weight: 100;
+}
+
+ /* <!-- banner middle --> */
+
+ .bannermiddle{
+  height: 890px;
+  width: 100%;
+
+ }
+ header.bannermiddle{
+  margin-top: 10px;
+  height: 200px;
+  
+ }
+ h1.heading2{
+  text-align: center;
+  padding-top: 50px;
+  text-align: center;
+  font-size:60px;
+  letter-spacing: -.01em;
+  line-height: 1.2;
+  font-weight: 800;
+  font-family: gd-sage,"Times","Times New Roman",serif;
+}
+h3{
+  color: rgb(59, 59, 59);
+  padding-top:20px ;
+  
+  font-size: 16px;
+  font-weight: 100;
+  font-family: gdsherpa,Helvetica,Arial,sans-serif;;
+}
+
+.bm-maindiv{
+  display: flex;
+  margin-left: 20px;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  height: 636px;
+  width: 100%;
+}
+.bm-columnleft{
+  margin-left: 50px;
+  margin-right: 55px;
+}
+.mobileimg{
+  border-radius: 5px;
+  border-top: 20px;
+  width: 658px;
+  height: 395px;
+}
+.bm-txtsection{
+  margin-top: 20px;
+  width: 600px;
+  
+}
+h6{
+  font-size: 30px;
+  letter-spacing: -.01em;
+  line-height: 1.2;
+  font-weight: 800;
+  font-family: gd-sage,"Times","Times New Roman",serif;
+}
+h6.colum1heading{
+ font-size:40px ;
+
+}
+h3.colum1subtxt{
+  text-align: left;
+}
+
+h3.price{
+  font-family: gd-sage,"Times","Times New Roman",serif;
+}
+.font-size-large {
+    font-size: 1.875rem;
+}
+.no-wrap-text {
+  padding-top: 5px;
+  font-family: gd-sage,"Times","Times New Roman",serif;
+  white-space: nowrap;
+  display: inline-block;
+ font-weight: bolder;
+}
+.bm-btn{
+  width: 199px;
+  height: 52px;
+  border: 3px solid black ;
+  background-color: transparent;
+}
+.div-bm-btn{
+  margin-top: 20px;
+}
+p{
+  font-family: gd-sage,"Times","Times New Roman",serif;
+}
+p.sub-heading{
+  padding-bottom: 5px;
+  font-weight: bolder;
+  font-size: 40px;
+}
+
+/* BANNER BOOTOM */
+
+.bannerbottom{
+  
+  margin-top: 70px;
+  height: 560px;
+  width:100%;
+}
+.womenimg{
+  position: absolute;
+  width: 100%;
+  height: 450px;
+}
+.name{
+  margin-top: 50px;
+  margin-left: 90px;
+  position: absolute;
+}
+.bb-discbox{
+  
+  margin-top: 90px;
+  margin-left: 55%;;
+  position: absolute;
+  width: 366px;
+  height: 614px;
+}
+.bb-logo{
+  position: absolute;
+}
+.bb-discbox{
+  width:800px;
+}
+.divbb-btn{
+  margin-top: 20px;
+  width: 500px;
+  height: 53px;
+}
+.bb-btn{
+  height: 52px;
+  width: 165.6px;
+  color: #fff;
+  background-color: black;
+  border:2px solid black;
+  cursor: pointer;
+}
+.disclaimer-div{
+ width: 100%;
+ height: 100px;  
+}
+.disclaimer-txt{
+  margin-left: 60px;
+}
+.disclaimer-div2{
+  padding-top: 20px;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 80px;  
+
+  background-color: #F5F7F8;
+  height: 60px;
+}
+
+.footer{
+  margin-top: 750px;
+  background-color: #111111;
+  color: #fde9db;
+  width: 100%;
+  height: 850px;
+}
+.footer-nav{
+  color: #F5F7F8;
+  background-color: #2b2b2b;
+  height: 50px;
+}
+ul.footer-nav{
+  display: flex;
+}
+.arrow{
+  width: 15px;
+  height: auto;
+}
+li.footer-nav{ 
+  font-size: 18px; 
+  height: 10px;
+  padding-top: 13px;
+  margin-right: 20px;
+}
+/* .dadylogo{
+  width:20px;
+  height: auto;
+} */
+.colorarrowimg{
+  margin-left: 100px;
+  margin-top: 20px;
+  width: 470px;
+  height: auto;
+}
+hr{
+  color: aqua;
+  background-color: royalblue;
+}
+.list-area{
+  display: flex;
+  width:100%;
+  height: 488px;
+}
+ul.final{
+  padding-top: 20px;
+  padding-left: 110px;
+}
+li.final{
+  font-size: 12px;
+  padding-top: 27px;
+  color: #a0a0a0;
+}
+strong{
+  font-size: 16px;
+  color: #F5F7F8;
+}
+.column1{
+  margin-right: 25px;
+}
+.footer-navdiv{
+
+}
+.footer-navbar{
+  padding-bottom: 10px;
+  width: 100%;
+  display: flex;
+  margin-left: 100px;
+}
+.logobottomimg{
+  width: 200px;
+  height: auto;
+}
+.socialimg{
+  margin-left: 1050px;
+}
+.footernote{
+  padding-top: 10px;
+}
+.footernote-left{
+  color: #f4f4f4;
+  font-weight: 100;
+  margin-left: 100px;
+  width: 70%;
+}
